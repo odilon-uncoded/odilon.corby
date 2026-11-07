@@ -166,6 +166,37 @@ window.CV = {
         "L'agenda a tourné pendant mon congé paternité sans supervision : environ 1 h gagnée par semaine. Prochaine étape : étendre le pipeline aux événements courants, déclenché au statut « validé com »."
       ],
       stack: ['Notion', 'Make', 'WordPress', 'ACF', 'Script IA']
+    },
+    {
+      id: 'passation',
+      title: 'Passation',
+      meta: 'PWA · Usage personnel',
+      teaser: "Ce que la crèche raconte en deux minutes au dépôt et à la récupération : noté d'une main, relu d'un coup d'œil, copié en texte pour l'autre parent.",
+      impact: ['Aucun serveur : tout reste sur le téléphone', '233 tests automatisés'],
+      shots: [
+        { src: 'img/passation-01-accueil.webp', alt: "Accueil de Passation : « Qui suit-on ? », bouton Reprendre, une carte enfant sans prénom avec ses suivis biberon, sommeil, selle", caption: "Accueil : reprendre là où on s'était arrêté" },
+        { src: 'img/passation-02-maintenant.webp', alt: "Écran Maintenant : « Depuis le dernier... » avec la durée depuis le dernier biberon et depuis le réveil, gros boutons Biberon et Sommeil en bas d'écran", caption: "Maintenant : « Depuis le dernier... », boutons sous le pouce" },
+        { src: 'img/passation-03-biberon-recap.webp', alt: "Panneau Biberon : heure Maintenant choisie d'office, quantité 150 ml sélectionnée, récapitulatif « Biberon 150 ml à 17h40 » et bouton Confirmer", caption: "Biberon : un récapitulatif à confirmer" },
+        { src: 'img/passation-04-resume.webp', alt: "Journée : résumé du jour en texte (biberons, selles, sommeil avec durées) et bouton Copier en texte", caption: "Journée : le résumé se copie en texte" }
+      ],
+      probleme: [
+        "Au dépôt et à la récupération, la crèche raconte la journée du bébé : biberons, sommeil, selles. Deux minutes, debout, un bébé dans un bras, parfois en plein soleil. Les infos sont orales, fragmentées, oubliées le soir.",
+        "Ce moment juge chaque choix. Une fonctionnalité qui n'aide pas la passation sort."
+      ],
+      construit: [
+        "Une PWA pour mon usage de parent : noter d'une main, relire la journée, la copier en texte pour l'autre parent. Un module Santé optionnel sert au suivi ponctuel : prises et protocole saisis par le parent.",
+        "Tout reste sur le téléphone. Pas de serveur, pas de compte, pas de traceur : des données sur un mineur n'ont rien à faire ailleurs. Sans synchro entre téléphones, le résumé de la journée se copie en texte.",
+        "Gros boutons dans la zone du pouce, cibles d'au moins 56 px, un seul thème clair à fort contraste pour lire au soleil.",
+        "L'app n'interprète rien. Pas de « mange peu », pas de seuil, pas de conseil médical. Elle note et calcule des durées.",
+        "Chaque saisie passe par un récapitulatif à confirmer. Ajouté après usage : sans bouton, on ne savait pas si c'était enregistré. Un biberon prend trois taps au lieu de deux, j'ai accepté ce coût.",
+        "Ce qui ne sert pas sort. Après deux semaines en ligne, Selle a perdu son gros bouton, puis sa carte sur l'écran principal. Les selles restent notables, dans la journée et le résumé.",
+        "Méthode : de petites tranches livrées et validées une à une, chaque décision notée et datée. Le code est écrit par Claude Code sous ma direction : je cadre, je tranche, je valide à l'usage."
+      ],
+      resultat: [
+        "En ligne depuis le 21 octobre 2026, en usage quotidien. Installable sur l'écran d'accueil, utilisable hors ligne. 233 tests automatisés. L'app s'ouvre vide : les données restent sur l'appareil de chacun."
+      ],
+      stack: ['Claude Code', 'React 18', 'Vite 7', 'Tailwind CSS', 'PWA (vite-plugin-pwa)', 'Vitest', 'Cloudflare Pages'],
+      link: { href: 'https://passation.pages.dev', label: "Voir l'app" }
     }
   ],
 
