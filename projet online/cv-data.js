@@ -171,7 +171,7 @@ window.CV = {
       id: 'passation',
       title: 'Passation',
       meta: 'PWA · Usage personnel',
-      teaser: "Deux moments où il faut noter vite et sans erreur : la passation à la crèche, et une crise d'asthme où il faut savoir ce qui a été donné et quand.",
+      teaser: "Une app conçue pour mon quotidien de parent, à partir de deux moments vécus où il faut noter vite et sans erreur : la passation à la crèche, et une crise d'asthme de ma fille, où il faut savoir ce qui a été donné et quand. Tout se relit d'un coup d'œil et se copie en texte pour l'autre parent.",
       impact: ['Aucun serveur : tout reste sur le téléphone', '233 tests automatisés'],
       shots: [
         { src: 'img/passation-01-accueil.webp', alt: "Accueil de Passation : « Qui suit-on ? », bouton Reprendre, deux enfants sans prénom, l'un suivi en Passation (biberon, sommeil, selle), l'autre en Santé (ventoline, médicaments, température)", caption: "Accueil : un enfant, ses suivis à lui" },
@@ -184,7 +184,7 @@ window.CV = {
         { src: 'img/passation-08-medicament.webp', alt: "Panneau d'un médicament fictif saisi par le parent : dose habituelle 5 ml, récapitulatif et bouton Confirmer", caption: "Médicament : fiche saisie par le parent" }
       ],
       probleme: [
-        "Au dépôt et à la récupération, la crèche raconte la journée du bébé : biberons, sommeil, selles. Deux minutes, debout, un bébé dans un bras, parfois en plein soleil. Les infos sont orales, fragmentées, oubliées le soir.",
+        "Au dépôt et à la récupération, la crèche raconte la journée du bébé : biberons, sommeil, selles. Deux minutes, debout, un bébé dans un bras. Les infos sont orales, fragmentées, oubliées le soir.",
         "Ce moment juge chaque choix. Une fonctionnalité qui n'aide pas la passation sort.",
         "Même contrainte pendant une crise d'asthme : en pleine urgence, savoir ce qui a été donné, quand, et quelle est la prochaine étape du protocole du PAI."
       ],
