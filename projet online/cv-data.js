@@ -184,16 +184,16 @@ window.CV = {
         "Ce moment juge chaque choix. Une fonctionnalité qui n'aide pas la passation sort."
       ],
       construit: [
-        "Une PWA pour mon usage de parent : noter d'une main, relire la journée, la copier en texte pour l'autre parent. Un module Santé optionnel sert au suivi ponctuel : prises et protocole saisis par le parent.",
+        "Une PWA pour mon usage de parent : noter d'une main, relire la journée, la copier en texte pour l'autre parent. Un module Santé optionnel, pour un usage ponctuel : le parent y saisit un protocole de crise personnalisé (celui du PAI, par exemple) et note les prises, pour savoir pendant une crise ce qui a été donné et quand.",
         "Tout reste sur le téléphone. Pas de serveur, pas de compte, pas de traceur : des données sur un mineur n'ont rien à faire ailleurs. Sans synchro entre téléphones, le résumé de la journée se copie en texte.",
         "Gros boutons dans la zone du pouce, cibles d'au moins 56 px, un seul thème clair à fort contraste pour lire au soleil.",
         "L'app n'interprète rien. Pas de « mange peu », pas de seuil, pas de conseil médical. Elle note et calcule des durées.",
-        "Chaque saisie passe par un récapitulatif à confirmer. Ajouté après usage : sans bouton, on ne savait pas si c'était enregistré. Un biberon prend trois taps au lieu de deux, j'ai accepté ce coût.",
+        "Chaque saisie passe par un récapitulatif à confirmer. Avant, après le dernier tap, on attendait que l'app enregistre sans savoir quand c'était fait. Un bouton Confirmer ajoute un tap, trois au lieu de deux, mais la validation est immédiate : on repart plus vite.",
         "Ce qui ne sert pas sort. Après deux semaines en ligne, Selle a perdu son gros bouton, puis sa carte sur l'écran principal. Les selles restent notables, dans la journée et le résumé.",
-        "Méthode : de petites tranches livrées et validées une à une, chaque décision notée et datée. Le code est écrit par Claude Code sous ma direction : je cadre, je tranche, je valide à l'usage."
+        "Méthode : de petites tranches livrées et validées une à une, chaque décision notée et datée. Le code est écrit par Claude Code sous ma direction : je cadre, je tranche, je teste sur iPhone au quotidien."
       ],
       resultat: [
-        "En ligne depuis le 21 octobre 2026, en usage quotidien. Installable sur l'écran d'accueil, utilisable hors ligne. 233 tests automatisés. L'app s'ouvre vide : les données restent sur l'appareil de chacun."
+        "En ligne depuis le 21 octobre 2026, testée sur iPhone, en usage quotidien. Installable sur l'écran d'accueil, utilisable hors ligne. 233 tests automatisés. Le lien est ouvert à tous les parents : l'app s'ouvre vide, les données restent sur l'appareil de chacun."
       ],
       stack: ['Claude Code', 'React 18', 'Vite 7', 'Tailwind CSS', 'PWA (vite-plugin-pwa)', 'Vitest', 'Cloudflare Pages'],
       link: { href: 'https://passation.pages.dev', label: "Voir l'app" }
