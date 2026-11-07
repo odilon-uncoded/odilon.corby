@@ -171,7 +171,7 @@ window.CV = {
       id: 'passation',
       title: 'Passation',
       meta: 'PWA · Usage personnel',
-      teaser: "Ce que la crèche raconte en deux minutes au dépôt et à la récupération : noté d'une main, relu d'un coup d'œil, copié en texte pour l'autre parent.",
+      teaser: "Deux moments où il faut noter vite et sans erreur : la passation à la crèche, et une crise d'asthme où il faut savoir ce qui a été donné et quand.",
       impact: ['Aucun serveur : tout reste sur le téléphone', '233 tests automatisés'],
       shots: [
         { src: 'img/passation-01-accueil.webp', alt: "Accueil de Passation : « Qui suit-on ? », bouton Reprendre, deux enfants sans prénom, l'un suivi en Passation (biberon, sommeil, selle), l'autre en Santé (ventoline, médicaments, température)", caption: "Accueil : un enfant, ses suivis à lui" },
@@ -185,7 +185,8 @@ window.CV = {
       ],
       probleme: [
         "Au dépôt et à la récupération, la crèche raconte la journée du bébé : biberons, sommeil, selles. Deux minutes, debout, un bébé dans un bras, parfois en plein soleil. Les infos sont orales, fragmentées, oubliées le soir.",
-        "Ce moment juge chaque choix. Une fonctionnalité qui n'aide pas la passation sort."
+        "Ce moment juge chaque choix. Une fonctionnalité qui n'aide pas la passation sort.",
+        "Même contrainte pendant une crise d'asthme : en pleine urgence, savoir ce qui a été donné, quand, et quelle est la prochaine étape du protocole du PAI."
       ],
       construit: [
         "Une PWA pour mon usage de parent : noter d'une main, relire la journée, la copier en texte pour l'autre parent. Un module Santé optionnel, pour un usage ponctuel. Exemple : les crises d'asthme de ma fille. Le parent recopie le protocole du PAI, rien n'est prérempli. Pendant une crise, l'app affiche le temps écoulé, le palier en cours et l'heure prévue de la prochaine prise. Bouffées de Ventoline, médicaments et température se notent comme un biberon, avec un récapitulatif à confirmer.",
