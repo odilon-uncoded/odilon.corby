@@ -174,17 +174,21 @@ window.CV = {
       teaser: "Ce que la crèche raconte en deux minutes au dépôt et à la récupération : noté d'une main, relu d'un coup d'œil, copié en texte pour l'autre parent.",
       impact: ['Aucun serveur : tout reste sur le téléphone', '233 tests automatisés'],
       shots: [
-        { src: 'img/passation-01-accueil.webp', alt: "Accueil de Passation : « Qui suit-on ? », bouton Reprendre, une carte enfant sans prénom avec ses suivis biberon, sommeil, selle", caption: "Accueil : reprendre là où on s'était arrêté" },
+        { src: 'img/passation-01-accueil.webp', alt: "Accueil de Passation : « Qui suit-on ? », bouton Reprendre, deux enfants sans prénom, l'un suivi en Passation (biberon, sommeil, selle), l'autre en Santé (ventoline, médicaments, température)", caption: "Accueil : un enfant, ses suivis à lui" },
         { src: 'img/passation-02-maintenant.webp', alt: "Écran Maintenant : « Depuis le dernier... » avec la durée depuis le dernier biberon et depuis le réveil, gros boutons Biberon et Sommeil en bas d'écran", caption: "Maintenant : « Depuis le dernier... », boutons sous le pouce" },
         { src: 'img/passation-03-biberon-recap.webp', alt: "Panneau Biberon : heure Maintenant choisie d'office, quantité 150 ml sélectionnée, récapitulatif « Biberon 150 ml à 17h40 » et bouton Confirmer", caption: "Biberon : un récapitulatif à confirmer" },
-        { src: 'img/passation-04-resume.webp', alt: "Journée : résumé du jour en texte (biberons, selles, sommeil avec durées) et bouton Copier en texte", caption: "Journée : le résumé se copie en texte" }
+        { src: 'img/passation-04-resume.webp', alt: "Journée : résumé du jour en texte (biberons, selles, sommeil avec durées) et bouton Copier en texte", caption: "Journée : le résumé se copie en texte" },
+        { src: 'img/passation-05-protocole.webp', alt: "Éditeur du protocole de crise : nom du scénario, bouffées, intervalle en minutes, consigne libre, avec des valeurs fictives", caption: "Santé : protocole recopié du PAI (fictif)" },
+        { src: 'img/passation-06-crise.webp', alt: "Crise en cours depuis 35 min : heure prévue de la prochaine prise, dernière prise, bouffées notées, palier du protocole saisi, boutons Ventoline, Médicament, Température, Fin de crise", caption: "Crise en cours : prochaine prise, palier saisi" },
+        { src: 'img/passation-07-ventoline.webp', alt: "Panneau Ventoline : Maintenant, 2 bouffées sélectionnées, récapitulatif « Ventoline 2 bouffées à 17h40 » et bouton Confirmer", caption: "Ventoline : bouffées, à confirmer" },
+        { src: 'img/passation-08-medicament.webp', alt: "Panneau d'un médicament fictif saisi par le parent : dose habituelle 5 ml, récapitulatif et bouton Confirmer", caption: "Médicament : fiche saisie par le parent" }
       ],
       probleme: [
         "Au dépôt et à la récupération, la crèche raconte la journée du bébé : biberons, sommeil, selles. Deux minutes, debout, un bébé dans un bras, parfois en plein soleil. Les infos sont orales, fragmentées, oubliées le soir.",
         "Ce moment juge chaque choix. Une fonctionnalité qui n'aide pas la passation sort."
       ],
       construit: [
-        "Une PWA pour mon usage de parent : noter d'une main, relire la journée, la copier en texte pour l'autre parent. Un module Santé optionnel, pour un usage ponctuel : le parent y saisit un protocole de crise personnalisé (celui du PAI, par exemple) et note les prises, pour savoir pendant une crise ce qui a été donné et quand.",
+        "Une PWA pour mon usage de parent : noter d'une main, relire la journée, la copier en texte pour l'autre parent. Un module Santé optionnel, pour un usage ponctuel. Exemple : les crises d'asthme de ma fille. Le parent recopie le protocole du PAI, rien n'est prérempli. Pendant une crise, l'app affiche le temps écoulé, le palier en cours et l'heure prévue de la prochaine prise. Bouffées de Ventoline, médicaments et température se notent comme un biberon, avec un récapitulatif à confirmer.",
         "Tout reste sur le téléphone. Pas de serveur, pas de compte, pas de traceur : des données sur un mineur n'ont rien à faire ailleurs. Sans synchro entre téléphones, le résumé de la journée se copie en texte.",
         "Gros boutons dans la zone du pouce, cibles d'au moins 56 px, un seul thème clair à fort contraste pour lire au soleil.",
         "L'app n'interprète rien. Pas de « mange peu », pas de seuil, pas de conseil médical. Elle note et calcule des durées.",
@@ -193,7 +197,7 @@ window.CV = {
         "Méthode : de petites tranches livrées et validées une à une, chaque décision notée et datée. Le code est écrit par Claude Code sous ma direction : je cadre, je tranche, je teste sur iPhone au quotidien."
       ],
       resultat: [
-        "En ligne depuis le 21 octobre 2026, testée sur iPhone, en usage quotidien. Installable sur l'écran d'accueil, utilisable hors ligne. 233 tests automatisés. Le lien est ouvert à tous les parents : l'app s'ouvre vide, les données restent sur l'appareil de chacun."
+        "En ligne depuis le 21 octobre 2026, testée sur iPhone, en usage quotidien. Installable sur l'écran d'accueil, utilisable hors ligne. 233 tests automatisés. Le lien est ouvert à tous les parents : l'app s'ouvre vide, les données restent sur l'appareil de chacun. Captures sur données fictives."
       ],
       stack: ['Claude Code', 'React 18', 'Vite 7', 'Tailwind CSS', 'PWA (vite-plugin-pwa)', 'Vitest', 'Cloudflare Pages'],
       link: { href: 'https://passation.pages.dev', label: "Voir l'app" }

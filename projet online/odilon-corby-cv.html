@@ -1698,8 +1698,8 @@ page programmation
           </div>
           <div class="case-study-shots">
             <figure class="case-study-shot">
-              <a href="img/passation-01-accueil.webp" target="_blank" rel="noreferrer"><img src="img/passation-01-accueil.webp" alt="Accueil de Passation : « Qui suit-on ? », bouton Reprendre, une carte enfant sans prénom avec ses suivis biberon, sommeil, selle" width="480" height="1039" loading="lazy" decoding="async"></a>
-              <figcaption>Accueil : reprendre là où on s'était arrêté</figcaption>
+              <a href="img/passation-01-accueil.webp" target="_blank" rel="noreferrer"><img src="img/passation-01-accueil.webp" alt="Accueil de Passation : « Qui suit-on ? », bouton Reprendre, deux enfants sans prénom, l'un suivi en Passation (biberon, sommeil, selle), l'autre en Santé (ventoline, médicaments, température)" width="480" height="1039" loading="lazy" decoding="async"></a>
+              <figcaption>Accueil : un enfant, ses suivis à lui</figcaption>
             </figure>
             <figure class="case-study-shot">
               <a href="img/passation-02-maintenant.webp" target="_blank" rel="noreferrer"><img src="img/passation-02-maintenant.webp" alt="Écran Maintenant : « Depuis le dernier... » avec la durée depuis le dernier biberon et depuis le réveil, gros boutons Biberon et Sommeil en bas d'écran" width="480" height="1039" loading="lazy" decoding="async"></a>
@@ -1713,6 +1713,22 @@ page programmation
               <a href="img/passation-04-resume.webp" target="_blank" rel="noreferrer"><img src="img/passation-04-resume.webp" alt="Journée : résumé du jour en texte (biberons, selles, sommeil avec durées) et bouton Copier en texte" width="480" height="1039" loading="lazy" decoding="async"></a>
               <figcaption>Journée : le résumé se copie en texte</figcaption>
             </figure>
+            <figure class="case-study-shot">
+              <a href="img/passation-05-protocole.webp" target="_blank" rel="noreferrer"><img src="img/passation-05-protocole.webp" alt="Éditeur du protocole de crise : nom du scénario, bouffées, intervalle en minutes, consigne libre, avec des valeurs fictives" width="480" height="1039" loading="lazy" decoding="async"></a>
+              <figcaption>Santé : protocole recopié du PAI (fictif)</figcaption>
+            </figure>
+            <figure class="case-study-shot">
+              <a href="img/passation-06-crise.webp" target="_blank" rel="noreferrer"><img src="img/passation-06-crise.webp" alt="Crise en cours depuis 35 min : heure prévue de la prochaine prise, dernière prise, bouffées notées, palier du protocole saisi, boutons Ventoline, Médicament, Température, Fin de crise" width="480" height="1039" loading="lazy" decoding="async"></a>
+              <figcaption>Crise en cours : prochaine prise, palier saisi</figcaption>
+            </figure>
+            <figure class="case-study-shot">
+              <a href="img/passation-07-ventoline.webp" target="_blank" rel="noreferrer"><img src="img/passation-07-ventoline.webp" alt="Panneau Ventoline : Maintenant, 2 bouffées sélectionnées, récapitulatif « Ventoline 2 bouffées à 17h40 » et bouton Confirmer" width="480" height="1039" loading="lazy" decoding="async"></a>
+              <figcaption>Ventoline : bouffées, à confirmer</figcaption>
+            </figure>
+            <figure class="case-study-shot">
+              <a href="img/passation-08-medicament.webp" target="_blank" rel="noreferrer"><img src="img/passation-08-medicament.webp" alt="Panneau d'un médicament fictif saisi par le parent : dose habituelle 5 ml, récapitulatif et bouton Confirmer" width="480" height="1039" loading="lazy" decoding="async"></a>
+              <figcaption>Médicament : fiche saisie par le parent</figcaption>
+            </figure>
           </div>
           <button class="case-study-toggle" aria-expanded="false" aria-controls="case-passation"><span class="case-study-label">[+] lire l'étude de cas</span></button>
           <div class="case-study-body" id="case-passation">
@@ -1724,7 +1740,7 @@ page programmation
               </div>
               <div class="case-study-detail">
                 <div class="case-study-detail-label">Ce que j'ai construit</div>
-                <p>Une PWA pour mon usage de parent : noter d'une main, relire la journée, la copier en texte pour l'autre parent. Un module Santé optionnel, pour un usage ponctuel : le parent y saisit un protocole de crise personnalisé (celui du PAI, par exemple) et note les prises, pour savoir pendant une crise ce qui a été donné et quand.</p>
+                <p>Une PWA pour mon usage de parent : noter d'une main, relire la journée, la copier en texte pour l'autre parent. Un module Santé optionnel, pour un usage ponctuel. Exemple : les crises d'asthme de ma fille. Le parent recopie le protocole du PAI, rien n'est prérempli. Pendant une crise, l'app affiche le temps écoulé, le palier en cours et l'heure prévue de la prochaine prise. Bouffées de Ventoline, médicaments et température se notent comme un biberon, avec un récapitulatif à confirmer.</p>
                 <p>Tout reste sur le téléphone. Pas de serveur, pas de compte, pas de traceur : des données sur un mineur n'ont rien à faire ailleurs. Sans synchro entre téléphones, le résumé de la journée se copie en texte.</p>
                 <p>Gros boutons dans la zone du pouce, cibles d'au moins 56 px, un seul thème clair à fort contraste pour lire au soleil.</p>
                 <p>L'app n'interprète rien. Pas de « mange peu », pas de seuil, pas de conseil médical. Elle note et calcule des durées.</p>
@@ -1734,7 +1750,7 @@ page programmation
               </div>
               <div class="case-study-detail">
                 <div class="case-study-detail-label">Impact</div>
-                <p>En ligne depuis le 21 octobre 2026, testée sur iPhone, en usage quotidien. Installable sur l'écran d'accueil, utilisable hors ligne. 233 tests automatisés. Le lien est ouvert à tous les parents : l'app s'ouvre vide, les données restent sur l'appareil de chacun.</p>
+                <p>En ligne depuis le 21 octobre 2026, testée sur iPhone, en usage quotidien. Installable sur l'écran d'accueil, utilisable hors ligne. 233 tests automatisés. Le lien est ouvert à tous les parents : l'app s'ouvre vide, les données restent sur l'appareil de chacun. Captures sur données fictives.</p>
               </div>
               <p class="case-study-stack"><span>stack</span> Claude Code · React 18 · Vite 7 · Tailwind CSS · PWA (vite-plugin-pwa) · Vitest · Cloudflare Pages</p>
               <a href="https://passation.pages.dev" target="_blank" rel="noreferrer" class="projet-link case-study-link">Voir l'app</a>
